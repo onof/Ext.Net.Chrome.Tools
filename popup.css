@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 5px;
+  height: 400px;
+  width: 400px;
+  overflow: auto;
+  background-color: #eee;
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 2px;
+}
+
+li:hover, summary time {
+  color: #008000;
+}
+
+pre {
+  background-color: #ddd;
+  padding: 5px;
+}
+
+summary time {
+  padding-right: 5px;
+}
+
+summary span {
+  font-size: larger;
+}
+
+h1,h2 {
+  font-size: 12pt;
+  color: #666;
+}
+
+
