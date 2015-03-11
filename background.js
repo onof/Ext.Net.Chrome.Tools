@@ -13,7 +13,7 @@ function updateSelected(tabId) {
   if (selectedEvents != null) {
 	chrome.pageAction.show(tabId);
 	
-	var newTitle = selectedEvents.length + " events on MessageBus".
+	var newTitle = selectedEvents.length + " events on MessageBus";
     chrome.pageAction.setTitle({tabId:tabId, title: newTitle});
   }
 }
